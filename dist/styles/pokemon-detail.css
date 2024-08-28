@@ -1,0 +1,59 @@
+.detail-main.main {
+  height: max-content;
+
+  border-color: var(--identidade-primaria);
+}
+
+.detail-bg {
+  position: absolute;
+  z-index: 1;
+  top: 8px;
+  right: 8px;
+  opacity: 0.1;
+}
+
+.detail-main .header {
+  padding: 20px;
+}
+
+.detail-main .header-wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: left;
+  gap: 15px;
+}
+
+.detail-main .header-wrap {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.detail-main .back-btn-wrap path,
+.detail-main .header-wrapper p,
+.detail-main .header-wrapper h1 {
+  color: var(--grayscale-white);
+  fill: var(--grayscale-white);
+}
+
+.detail-main h1 {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.detail-main .pokemon-id-wrap p {
+  font-weight: var(--font-weight-bold);
+}
+
+.detail-main .back-btn-wrap {
+  background-color: var(--identidade-primaria);
+  padding: 0.5rem;
+  border-radius: 50%;
+  box-shadow: var(--drop-shadow-inner);
+  transition: 0.3s;
+}
+
+.detail-main .back-btn-wrap:hover {
+  background-color: var(--identidade-primaria);
+  box-shadow: var(--drop-shadow-hover);
+}

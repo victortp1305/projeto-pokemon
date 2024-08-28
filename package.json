@@ -1,0 +1,26 @@
+{
+  "name": "axios",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "victortp1305",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/runtime": "^7.25.4",
+    "axios": "^1.7.4"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.24.8",
+    "@babel/core": "^7.25.2",
+    "@babel/plugin-transform-runtime": "^7.25.4",
+    "@babel/preset-env": "^7.25.4",
+    "babel-loader": "^9.1.3",
+    "webpack": "^5.94.0",
+    "webpack-cli": "^5.1.4"
+  }
+}

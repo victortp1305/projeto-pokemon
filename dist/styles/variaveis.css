@@ -1,0 +1,44 @@
+:root {
+  --rainbow-gradient: linear-gradient(
+    270deg,
+    #ff0000,
+    #ff8c00,
+    #ffff00,
+    #00ff00,
+    #0000ff,
+    #4b0082,
+    #ee82ee
+  );
+  --primaria-body: #c21414;
+  --identidade-primaria: #c52727;
+  --identidade-primaria-fosca: #e2272796;
+  --identidade-secundaria: #f5f5f5;
+  --grayscale-dark: #212121;
+  --grayscale-medium: #666666;
+  --grayscale-medium-light: #a8a8a8;
+  --grayscale-light: #e0e0e0;
+  --grayscale-background: #efefef;
+  --grayscale-white: #ffffff;
+
+  --headline-font-size: 3rem;
+  --body1-font-size: 0.875rem;
+  --body2-font-size: 0.75rem;
+  --body3-font-size: 0.625rem;
+  --subtitle1-font-size: 0.875rem;
+  --subtitle2-font-size: 0.75rem;
+  --subtitle3-font-size: 0.625rem;
+  --caption-font-size: 0.5rem;
+
+  --headline-line-height: 2rem;
+  --common-line-height: 1rem;
+  --caption-line-height: 0.75rem;
+
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  --up-shadow: 0px -1px 4px 1px rgba(0, 0, 0, 0.2);
+  --drop-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.2);
+  --drop-shadow-hover: 0px 3px 4px 3px rgba(0, 0, 0, 0.4);
+  --drop-shadow-inner: 0px 1px 3px 2px rgba(0, 0, 0, 0.275) inset;
+  --drop-shadow-inner-strong: 0px 1px 6px 2px rgba(0, 0, 0, 0.5) inset;
+}

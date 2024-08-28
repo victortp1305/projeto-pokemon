@@ -1,0 +1,33 @@
+.detail-main .featured-img {
+  position: relative;
+}
+
+.featured-img a.arrow {
+  position: absolute;
+  transform: translateY(-50%);
+  top: 50%;
+  background-color: var(--grayscale-light);
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+
+.featured-img a.arrow:hover {
+  box-shadow: var(--drop-shadow);
+}
+
+.arrow img {
+  width: 28px;
+}
+
+.featured-img a.arrow.left-arrow {
+  left: -6rem;
+}
+
+.featured-img a.arrow.right-arrow {
+  right: -6rem;
+}
+
+.detail-img-wrapper img {
+  height: 100%;
+  margin: 0 auto;
+}

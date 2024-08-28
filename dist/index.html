@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokedex</title>
+  <link rel="stylesheet" href="./styles/style.css">
+  <script src="main.js" defer></script>
+</head>
+
+<body id="index">
+  <main class="main">
+    <header class="header-home">
+      <div class="container">
+        <div class="logo-wrapper">
+          <img src="./assets/pokeball.svg" alt="pokeball">
+          <h1>Pokedex</h1>
+        </div>
+        <div class="search-wrapper">
+          <div class="search-wrap">
+            <img src="./assets/search.svg" alt="search icon" class="search-icon">
+            <input type="text" class="search-input" placeholder="Pesquisa" id="search-input" autocomplete="off">
+            <img src="./assets/cross.svg" alt="cross-icon" class="search-close-icon" id="search-close-icon">
+          </div>
+          <div class="sort-wrapper">
+
+            <div class="type-filter-wrap"><img src="./assets/pokemon-ball.webp" alt="filter" class="filter-icon" id="filter-icon"></div>
+            <button id="clear-filter-button">Clear</button>
+            <div id="type-wrapper">
+              <p class="body2-fonts">
+                Tipo:
+              </p>
+              <div class="type-wrap">
+                <div data-type="all">
+                  <input type="radio" id="all" name="type" value="all" checked>
+                  <label class="body3-fonts" for="all">Todos</label>
+                </div>
+                <div data-type="bug">
+                  <input type="radio" id="bug" name="type" value="bug">
+                  <label class="body3-fonts" for="bug">Bug</label>
+                </div>
+                <div data-type="dark">
+                  <input type="radio" id="dark" name="type" value="dark">
+                  <label class="body3-fonts" for="dark">Dark</label>
+                </div>
+                <div data-type="dragon">
+                  <input type="radio" id="dragon" name="type" value="dragon">
+                  <label class="body3-fonts" for="dragon">Dragon</label>
+                </div>
+                <div data-type="electric">
+                  <input type="radio" id="electric" name="type" value="electric">
+                  <label class="body3-fonts" for="electric">Electric</label>
+                </div>
+                <div data-type="fairy">
+                  <input type="radio" id="fairy" name="type" value="fairy">
+                  <label class="body3-fonts" for="fairy">Fairy</label>
+                </div>
+                <div data-type="fighting">
+                  <input type="radio" id="fighting" name="type" value="fighting">
+                  <label class="body3-fonts" for="fighting">Fighting</label>
+                </div>
+                <div data-type="fire">
+                  <input type="radio" id="fire" name="type" value="fire">
+                  <label class="body3-fonts" for="fire">Fire</label>
+                </div>
+                <div data-type="flying">
+                  <input type="radio" id="flying" name="type" value="flying">
+                  <label class="body3-fonts" for="flying">Flying</label>
+                </div>
+                <div data-type="ghost">
+                  <input type="radio" id="ghost" name="type" value="ghost">
+                  <label class="body3-fonts" for="ghost">Ghost</label>
+                </div>
+                <div data-type="grass">
+                  <input type="radio" id="grass" name="type" value="grass">
+                  <label class="body3-fonts" for="grass">Grass</label>
+                </div>
+                <div data-type="ground">
+                  <input type="radio" id="ground" name="type" value="ground">
+                  <label class="body3-fonts" for="ground">Ground</label>
+                </div>
+                <div data-type="ice">
+                  <input type="radio" id="ice" name="type" value="ice">
+                  <label class="body3-fonts" for="ice">Ice</label>
+                </div>
+                <div data-type="normal">
+                  <input type="radio" id="normal" name="type" value="normal">
+                  <label class="body3-fonts" for="normal">Normal</label>
+                </div>
+                <div data-type="poison">
+                  <input type="radio" id="poison" name="type" value="poison">
+                  <label class="body3-fonts" for="poison">Poison</label>
+                </div>
+                <div data-type="psychic">
+                  <input type="radio" id="psychic" name="type" value="psychic">
+                  <label class="body3-fonts" for="psychic">Psychic</label>
+                </div>
+                <div data-type="rock">
+                  <input type="radio" id="rock" name="type" value="rock">
+                  <label class="body3-fonts" for="rock">Rock</label>
+                </div>
+                <div data-type="steel">
+                  <input type="radio" id="steel" name="type" value="steel">
+                  <label class="body3-fonts" for="steel">Steel</label>
+                </div>
+                <div data-type="water">
+                  <input type="radio" id="water" name="type" value="water">
+                  <label class="body3-fonts" for="water">Water</label>
+                </div>
+
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+      </div>
+    </header>
+
+    <section class="pokemon-list">
+      <div class="container">
+        <div class="list-wrapper"></div>
+      </div>
+      <div id="loading" style="display: none;">Carregando...</div>
+      <div id="not-found-message">Pokemon not found</div>
+    </section>
+  </main>
+  <!-- Modal -->
+  <div id="pokemonModal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="pokemonDetails">
+
+      </div>
+      <button id="prevPokemon" class="nav-button">
+        <img src="./assets/chevron_left.svg" alt="back">
+      </button>
+      <button id="nextPokemon" class="nav-button"><img src="./assets/chevron_right.svg" alt="forward" srcset=""></button>
+
+    </div>
+  </div>
+</body>
+
+</html>

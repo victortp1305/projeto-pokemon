@@ -1,0 +1,9 @@
+@import "geral.css";
+@import "variaveis.css";
+@import "header.css";
+@import "pokemon-list.css";
+@import "pokemon-detail.css";
+@import "featured-img.css";
+@import "animacoes.css";
+/* @import "detail-card.css"; */
+@import "modal.css";

@@ -1,0 +1,244 @@
+.header-home {
+  width: 90%;
+}
+
+.logo-wrapper {
+  display: flex;
+  gap: 2rem;
+  padding: 0.6rem 0;
+}
+
+.logo-wrapper > h1 {
+  color: var(--grayscale-white);
+  font-size: 2.4rem;
+}
+
+.search-wrapper {
+  width: 100%;
+  justify-content: space-between;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.search-wrap {
+  position: relative;
+  background-color: var(--grayscale-white);
+  display: flex;
+  border-radius: 3rem;
+  width: 100%;
+  align-items: center;
+  height: 3rem;
+  padding: 0 1rem;
+  gap: 1rem;
+  box-shadow: var(--drop-shadow-inner);
+}
+
+.search-input {
+  width: 60%;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+.search-input::placeholder {
+  color: var(--grayscale-light);
+}
+
+.search-input:focus-visible {
+  border: none;
+  outline: none;
+}
+
+.search-close-icon {
+  position: absolute;
+  display: none;
+  right: 1rem;
+  cursor: pointer;
+}
+
+.search-close-icon.search-close-icon-visible {
+  display: block;
+}
+
+.search-wrap svg path {
+  fill: var(--identidade-primaria);
+}
+
+.sort-wrapper {
+  position: relative;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.sort-wrap {
+  background-color: var(--grayscale-white);
+  border-radius: 50%;
+  width: 3.6rem;
+  height: 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--drop-shadow-inner);
+}
+.sort-wrap img {
+  width: 1rem;
+}
+.type-filter-wrap {
+  background-color: var(--grayscale-white);
+  border-radius: 50%;
+  max-width: 3.2rem;
+  max-height: 3.2rem;
+  min-width: 3rem;
+  min-height: 3rem;
+  display: flex;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+  box-shadow: var(--drop-shadow-inner);
+  transition: 0.3s ease-in-out;
+}
+
+.type-filter-wrap.ativo {
+  background-color: var(--identidade-primaria);
+  transform: rotate(720deg);
+}
+
+.type-filter-wrap img {
+  transition: filter 0.2s ease-in-out, transform 0.1s ease-in-out;
+  filter: drop-shadow(0 4px 2px rgba(0, 0, 0, 0.5));
+  transform: scale(1.1);
+}
+
+.type-filter-wrap.ativo img {
+  transform: scale(0.92);
+  filter: none;
+}
+
+.type-filter-wrap:hover {
+  cursor: pointer;
+}
+.sort-wrap:hover {
+  cursor: pointer;
+}
+
+.filter-wrapper {
+  top: 110%;
+  right: 1px;
+  display: none;
+  position: absolute;
+  background-color: var(--identidade-primaria);
+  border: 4px solid var(--identidade-primaria);
+  box-shadow: var(--drop-shadow-hover);
+  padding: 4px;
+  min-width: 150px;
+  border-radius: 0.5rem;
+}
+
+.filter-wrapper.ativo {
+  display: block;
+  animation: show-down 0.3s forwards;
+  z-index: 99;
+}
+
+.filter-wrapper p {
+  padding: 1rem 1.25rem;
+  color: var(--grayscale-white);
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.filter-wrap {
+  padding: 1rem 1.25rem;
+  border-radius: 0.5rem;
+  background-color: var(--grayscale-white);
+}
+
+.filter-wrap > div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.filter-wrap > div:last-child {
+  margin-bottom: 0;
+}
+
+.filter-wrap > div label {
+  font-size: 0.8rem;
+}
+
+#type-wrapper {
+  top: 110%;
+  right: 1px;
+  position: absolute;
+  display: none;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  background-color: var(--identidade-primaria);
+  border: 4px solid var(--identidade-primaria);
+  box-shadow: var(--drop-shadow-hover);
+  padding: 4px;
+  min-width: 150px;
+  border-radius: 0.5rem;
+}
+
+#type-wrapper.ativo {
+  display: flex;
+  animation: show-down 0.3s forwards;
+  z-index: 99;
+}
+
+#type-wrapper p {
+  padding: 1rem 1.25rem;
+  color: var(--grayscale-white);
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1;
+  margin: 0;
+}
+
+#type-wrapper .type-wrap {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  max-width: 400px;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 1.25rem;
+  border-radius: 0.5rem;
+  background-color: var(--grayscale-white);
+}
+.type-wrap > div {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.type-wrap > div label {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: var(--cor-principal);
+  text-shadow: 0px 0px 1px rgb(0, 0, 0);
+}
+
+#clear-filter-button {
+  background-color: var(--grayscale-white);
+  border-radius: 5rem;
+  padding: 0.8rem;
+  color: var(--identidade-primaria);
+  font-weight: bold;
+  font-size: 0.8rem;
+  font-family: "Poppins", sans-serif;
+  line-height: 1;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+#clear-filter-button:hover {
+  background-color: var(--identidade-primaria);
+  color: var(--grayscale-white);
+}
