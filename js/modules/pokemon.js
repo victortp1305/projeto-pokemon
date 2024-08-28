@@ -367,14 +367,14 @@ export default class PokemonFunction {
     <div class="pokemon-detail-wrapper">
       <div class="pokemon-detail-wrap">
         <div class="pokemon-detail">
-          <img src="./assets/weight.svg" alt="weight">
+          <img src="./dist/assets/weight.svg" alt="weight">
           <p class="body3-fonts weight">${weight / 10}kg</p>
         </div>
         <p class="caption-fonts">Peso</p>
       </div>
       <div class="pokemon-detail-wrap">
         <div class="pokemon-detail">
-          <img src="./assets/height.svg" alt="height">
+          <img src="./dist/assets/height.svg" alt="height">
           <p class="body3-fonts height">${height / 10}m</p>
         </div>
         <p class="caption-fonts">Altura</p>
