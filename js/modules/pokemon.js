@@ -656,7 +656,7 @@ export default class PokemonFunction {
     const larguraTela = window.innerWidth;
     const alturaTela = window.innerHeight;
     const larguraItem = 200; // Largura média de um item (ajuste conforme necessário)
-    const alturaItem = 200; // Altura média de um item (ajuste conforme necessário)
+    const alturaItem = 270; // Altura média de um item (ajuste conforme necessário)
     const margemItem = 34; // Margem média de um item (ajuste conforme necessário)
 
     // Calcula o número de itens que cabem na tela

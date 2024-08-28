@@ -1,6 +1,6 @@
 .pokemon-list {
   width: calc(100% - 2rem);
-  height: calc(80% - 1rem);
+  height: calc(82% - 1rem);
   background-color: var(--grayscale-background);
   box-shadow: var(--drop-shadow-inner);
   border-radius: 1rem;
@@ -56,7 +56,7 @@
   opacity: 0;
   content: "";
   position: absolute;
-  bottom: 0rem;
+  bottom: 1rem;
   right: 50%;
   transform: translateX(50%);
   z-index: 1;
