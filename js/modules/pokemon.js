@@ -665,7 +665,7 @@ export default class PokemonFunction {
 
     // Calcula o número total de itens por página
     itemPerPage = itensPorLinha * linhasVisiveis;
-    if (window.innerWidth <= 800) {
+    if (window.innerWidth <= 1000) {
       this.itemsPerPage = this.MAX_POKEMON; // Exibe todos os Pokémon em telas menores
       // this.listWrapper.style.overflowY = "scroll";
       this.listWrapper.style.height = "auto"; // Ajuste conforme necessário

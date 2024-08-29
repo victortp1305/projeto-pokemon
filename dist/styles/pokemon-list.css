@@ -237,3 +237,9 @@
   color: var(--grayscale-white);
   transform: scale(1.2);
 }
+
+@media (max-height: 640px) {
+  .pagination {
+    flex-wrap: wrap;
+  }
+}

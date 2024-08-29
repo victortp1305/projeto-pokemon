@@ -53,6 +53,7 @@
 .search-close-icon {
   position: absolute;
   display: none;
+  width: 0.9rem;
   right: 1rem;
   cursor: pointer;
 }
@@ -241,4 +242,21 @@
 #clear-filter-button:hover {
   background-color: var(--identidade-primaria);
   color: var(--grayscale-white);
+}
+
+@media (max-width: 800px) {
+  .search-wrap {
+    gap: 0.5rem;
+    padding: 0 0.5rem;
+  }
+  .search-input {
+    font-size: 0.7rem;
+    width: 100%;
+  }
+  .search-input::placeholder {
+    font-size: 0.7rem;
+  }
+  .search-icon {
+    width: 1.2rem;
+  }
 }
