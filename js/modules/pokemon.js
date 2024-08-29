@@ -61,7 +61,7 @@ export default class PokemonFunction {
       dragon: "#7038F8",
       dark: "#705848",
       steel: "#B8B8D0",
-      dark: "#EE99AC",
+      dark: "#4f1c4f",
       fairy: "#EE99AC",
     };
 
