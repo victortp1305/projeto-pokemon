@@ -94,8 +94,9 @@
 }
 
 .pokemon-card:hover .img-wrap img {
-  transform: scale(1.3);
-  filter: drop-shadow(5px 2px 3px rgba(0, 0, 0, 0.5));
+  transform: scale(1.3) translate(-4%, -4%);
+
+  filter: drop-shadow(3px 3px 2px rgba(0, 0, 0, 0.5));
 }
 
 .pokemon-card .name-wrap p {
@@ -134,7 +135,7 @@
     rgb(0, 0, 0) 0.567324px -1.91785px 0px,
     rgb(0, 0, 0) 1.41734px -1.41108px 0px,
     rgb(0, 0, 0) 1.92034px -0.558831px 0px;
-  transform: scale(1.15);
+  transform: scale(1.1);
 }
 
 .pokemon-card .name-wrap {
