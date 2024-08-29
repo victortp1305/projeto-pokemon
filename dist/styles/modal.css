@@ -22,24 +22,39 @@
   text-align: center;
   align-items: center;
   position: relative;
-  background: var(--identidade-primaria)
+  background: linear-gradient(
+      90deg,
+      var(--identidade-primaria) 1%,
+      var(--identidade-primaria) 100%
+    ),
     linear-gradient(
       180deg,
-      var(--identidade-primaria) 2%,
+      var(--identidade-primaria) 10%,
       #ff1e00 15%,
       /* Cor 2: laranja brilhante */ #ffa600 30%,
       /* Cor 2: laranja brilhante */ #ffe600 45%,
       /* Cor 3: amarelo brilhante */ #00ff00 55%,
       /* Cor 4: verde brilhante */ #0000ff 70%,
       /* Cor 5: azul brilhante */ #8b00ff 85%,
-      var(--identidade-primaria) 95%
+      var(--identidade-primaria) 90%
+    ),
+    linear-gradient(
+      90deg,
+      var(--identidade-primaria) 10%,
+      #ff1e00 15%,
+      #ffa600 30%,
+      #ffe600 45%,
+      #00ff00 55%,
+      #0000ff 70%,
+      #8b00ff 85%,
+      var(--identidade-primaria) 90%
     );
 
   background-blend-mode: screen;
   border: 1px solid var(--grayscale-dark);
   /* Centraliza o modal */
   border-radius: 1rem;
-  padding: 20px;
+  padding: 25px;
   box-shadow: var(--drop-shadow);
   max-width: 100%;
   max-height: 100%;
