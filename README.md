@@ -23,6 +23,9 @@ Este projeto é uma aplicação web que simula uma Pokédex, permitindo visualiz
 1. Clone o repositório.
 2. Abra o arquivo `index.html` no seu navegador.
 
+## 🌐 **Acesse o projeto online:**
+- [Pokédex Online](https://victortp1305.github.io/projeto-pokemon/)
+
 ---
 
 Explore a Pokédex e descubra mais sobre o universo Pokémon!
