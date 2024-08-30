@@ -5,6 +5,11 @@ Este projeto é uma aplicação web que simula uma Pokédex, permitindo visualiz
 
 ## 🚀 **Funcionalidades:**
 - Listagem de Pokémon com imagem e informações básicas.
+- **Paginação** para navegar entre os diferentes Pokémon.
+- **Consumo de API** para obter dados atualizados sobre os Pokémon.
+- **Modal** para exibir detalhes adicionais de cada Pokémon em uma janela dedicada.
+- **Mecanismo de pesquisa** para encontrar Pokémon pelo nome.
+- **Filtro por tipo** para visualizar apenas os Pokémon de determinado tipo.
 - Interface simples e intuitiva.
 - Design responsivo.
 
@@ -13,6 +18,9 @@ Este projeto é uma aplicação web que simula uma Pokédex, permitindo visualiz
 - ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat&logo=css3&logoColor=white)
 - ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
 - ![Webpack](https://img.shields.io/badge/-Webpack-8DD6F9?style=flat&logo=webpack&logoColor=black)
+
+## 🔗 **API Utilizada:**
+- **PokéAPI**: [https://pokeapi.co/](https://pokeapi.co/)
 
 ## 📂 **Estrutura do Projeto:**
 - **dist/**: Arquivos de distribuição.
@@ -29,3 +37,4 @@ Este projeto é uma aplicação web que simula uma Pokédex, permitindo visualiz
 ---
 
 Explore a Pokédex e descubra mais sobre o universo Pokémon!
+
