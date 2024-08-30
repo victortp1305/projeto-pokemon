@@ -1,11 +1,12 @@
 # Projeto Pokémon
 
-## 🌐 **Acesse o projeto online:**
-- [Pokédex Online](https://victortp1305.github.io/projeto-pokemon/)
-
 🎮 **Descrição:**
 Este projeto é uma aplicação web que simula uma Pokédex, permitindo visualizar informações detalhadas sobre diferentes Pokémon. Desenvolvido com **HTML5**, **CSS3**, e **JavaScript**, o projeto utiliza **Webpack** para gerenciar os módulos e compilar os arquivos.
 
+## 🌐 **Acesse o projeto online:**
+- [Pokédex Online](https://victortp1305.github.io/projeto-pokemon/)
+
+  
 ## 🚀 **Funcionalidades:**
 - Listagem de Pokémon com imagem e informações básicas.
 - **Paginação** para navegar entre os diferentes Pokémon.
