@@ -9,7 +9,7 @@ Este projeto é uma aplicação web que simula uma Pokédex, permitindo visualiz
   
 ## 🚀 **Funcionalidades:**
 - Listagem de Pokémon com imagem e informações básicas.
-- **Paginação** para navegar entre os diferentes Pokémon.
+- **Paginação** para navegar entre os diferentes Pokémons.
 - **Consumo de API** através de `fetch` para obter dados atualizados sobre os Pokémon.
 - **Modal** para exibir detalhes adicionais de cada Pokémon em uma janela dedicada.
 - **Mecanismo de pesquisa** para encontrar Pokémon pelo nome.
