@@ -41,7 +41,3 @@ Este projeto é uma aplicação web que simula uma Pokédex, permitindo visualiz
 Explore a Pokédex e descubra mais sobre o universo Pokémon!
 
 
----
-
-Explore a Pokédex e descubra mais sobre o universo Pokémon!
-
